@@ -1,0 +1,15 @@
+# Ignore everything
+/*
+wp-content/*
+wp-content/plugins
+wp-content/themes/*
+wp-content/themes/*/node_modules
+wp-content/themes/*/dist
+wp-content/uploads
+wp-content/upgrades
+
+# Except the theme called "playground"
+!.gitignore
+!wp-content
+!wp-content/themes
+!wp-content/themes/playground
