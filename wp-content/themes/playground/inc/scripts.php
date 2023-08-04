@@ -4,8 +4,8 @@
  */
 function playground_scripts() {
 
+	// Default
 	wp_enqueue_style( 'playground-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'playground-style', 'rtl', 'replace' );
 
 	// Main css
 	wp_enqueue_style( 'playground-main-style', get_template_directory_uri() . '/dist/main.css', array(), _S_VERSION );
