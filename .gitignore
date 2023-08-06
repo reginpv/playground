@@ -10,6 +10,7 @@ wp-content/upgrades
 
 # Except the theme called "playground"
 !.gitignore
+!.editorconfig
 !README.md
 !wp-content
 !wp-content/themes
