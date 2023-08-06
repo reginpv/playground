@@ -1,0 +1,9 @@
+:root {
+	--page-min-h: calc(100vh - 32px);
+}
+
+.logged-in {
+	.page {
+		@apply min-h-[--page-min-h];
+	}
+}
