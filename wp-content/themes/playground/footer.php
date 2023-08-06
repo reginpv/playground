@@ -12,8 +12,8 @@
 ?>
 
 	<footer>
-		<div class="footer__content flex items-center justify-center container">
-			<p>Playground</p>
+		<div class="footer__content flex items-center justify-center container py-3 px-5">
+			<p>Playground <?= date('Y') ?></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
