@@ -7,7 +7,11 @@ module.exports = {
     "./src/**/*.js",       // JavaScript files in 'src' folder (if any)
   ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true
+      }
+    },
   },
   plugins: [],
 }

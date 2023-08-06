@@ -2,11 +2,19 @@ const path = require('path');
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
-  mode: 'production', // or 'development' for non-minified code
-  entry: './src/js/main.js', // Replace 'app.js' with the entry point of your JavaScript code
+
+  // or 'development' for non-minified code
+  mode: 'production', 
+
+  // Replace 'app.js' with the entry point of your JavaScript code
+  entry: './src/js/app.js', 
+
   output: {
-    path: path.resolve(__dirname, 'dist'), // Output directory path (absolute path)
-    filename: 'main.js', // Replace 'main.js' with the desired output filename
+    // Output directory path (absolute path)
+    path: path.resolve(__dirname, 'dist'), 
+
+    // Replace 'main.js' with the desired output filename
+    filename: 'main.js', 
   },
   optimization: {
     minimize: true,

@@ -46,10 +46,10 @@
     "map": false
   },
   "scripts": {
-    "watch": "npx tailwindcss -i src/scss/app.scss -o dist/main.css --postcss --sass --watch & webpack --watch",
+    "watch": "npx tailwindcss -i src/scss/app.scss -o dist/main.css --postcss --sass --watch && webpack --watch",
     "build": "npx tailwindcss build -i src/scss/app.scss -o dist/main.css",
     "build:js": "webpack",
-    "build:minify": "postcss dist/main.css -o dist/main.css --use cssnano & webpack"
+    "build:minify": "postcss dist/main.css -o dist/main.css --use cssnano && webpack"
   }
   
 }

@@ -12,7 +12,7 @@
 ?>
 
 	<footer>
-		<div class="site-info">
+		<div class="footer__content flex items-center justify-center container">
 			<p>Playground</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
