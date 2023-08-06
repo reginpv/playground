@@ -19,8 +19,10 @@
   "devDependencies": {
     "@wordpress/scripts": "^19.2.2",
     "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
     "dir-archiver": "^1.1.1",
     "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
     "postcss-nesting": "^12.0.1",
     "rtlcss": "^3.5.0",
@@ -43,6 +45,6 @@
   "scripts": {
     "watch": "npx tailwindcss -i src/scss/app.scss -o dist/main.css --postcss --sass --watch",
     "build": "npx tailwindcss build -i src/scss/app.scss -o dist/main.css",
-    "build:minify": "postcss dist/main.css -o dist/main.css"
+    "build:minify": "postcss dist/main.css -o dist/main.css --use cssnano"
   }
 }

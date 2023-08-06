@@ -1,9 +1,13 @@
 :root {
-	--page-min-h: calc(100vh - 32px);
+	--page-min-h--logged-in: calc(100vh - 32px);
+}
+
+.page {
+	@apply min-h-screen;
 }
 
 .logged-in {
 	.page {
-		@apply min-h-[--page-min-h];
+		@apply min-h-[--page-min-h--logged-in];
 	}
 }
