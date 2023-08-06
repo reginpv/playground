@@ -13,7 +13,7 @@
 
 	<footer>
 		<div class="footer__content flex items-center justify-center container py-3 px-5">
-			<p>Playground <?= date('Y') ?></p>
+			<p><?= bloginfo('name') ?> <?= date('Y') ?></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
