@@ -1,5 +1,10 @@
 :root {
-	--page-min-h--logged-in: calc(100vh - 32px);
+	--page-min-h-logged-in: calc(100vh - 46px);
+	--page-min-h-logged-in--md: calc(100vh - 32px);
+}
+
+* {
+	@apply outline outline-dashed outline-red-300;
 }
 
 .page {
@@ -8,6 +13,6 @@
 
 .logged-in {
 	.page {
-		@apply min-h-[--page-min-h--logged-in];
+		@apply min-h-[--page-min-h-logged-in] md:min-h-[--page-min-h-logged-in--md];
 	}
 }
