@@ -3,9 +3,7 @@
 	--page-min-h-logged-in--md: calc(100vh - 32px);
 }
 
-* {
-	@apply outline outline-dashed outline-red-300;
-}
+
 
 .page {
 	@apply min-h-screen;
