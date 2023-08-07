@@ -1,5 +1,18 @@
 .mainmenu-mobile {
-	@apply sm:hidden fixed top-0 left-0 bg-slate-300 w-full h-screen flex flex-col items-center justify-center;
+	@apply hidden fixed top-0 left-0 bg-slate-300 w-full h-screen flex-col items-center justify-center;
+
+	&.mainmenu-mobile--show {
+		@apply flex top-0;
+
+		.mobile-toggle {
+			@apply absolute top-7 right-7;
+		}
+
+		ul {
+			@apply flex;
+		}
+
+	}
 }
 .logged-in {
 	.mainmenu-mobile {

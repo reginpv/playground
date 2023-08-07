@@ -1,8 +1,8 @@
 .mainmenu {
 	.mobile-toggle {
-		@apply block md:hidden absolute top-7 right-7;
+		@apply block md:hidden;
 	}
 	ul {
-		@apply flex flex-col md:flex-row items-center space-x-0 sm:space-x-5 space-y-5 sm:space-y-0;
+		@apply hidden sm:flex flex-col md:flex-row items-center space-x-0 sm:space-x-5 space-y-5 sm:space-y-0;
 	}
 }

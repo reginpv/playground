@@ -2,7 +2,7 @@
 	<div class="mainmenu-mobile__content">
 
 		<nav class="mainmenu">		
-			<button class="mobile-toggle">Menu</button>
+			<button data-ui="mainmenu-mobile__toggle" class="mobile-toggle">Menu</button>
 			<?php
 			wp_nav_menu(
 				array(
