@@ -32,7 +32,13 @@
 
 		<div class="header__content container flex items-center justify-between py-3 px-5">
 			<div class="logo">
-				<a href="/">Logo</a>
+				<a href="/">
+
+					<!-- Logo -->
+					<?php get_template_part('template-parts/components/logo') ?>
+					<!-- /Logo -->
+
+				</a>
 			</div>
 
 			<nav id="site-navigation" class="main-navigation">
