@@ -35,23 +35,16 @@
 				<a href="/">
 
 					<!-- Logo -->
-					<?php get_template_part('template-parts/components/logo') ?>
+					<?php get_template_part('template-parts/components/logo'); ?>
 					<!-- /Logo -->
 
 				</a>
 			</div>
 
-			<nav id="site-navigation" class="main-navigation">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'playground' ); ?></button>
-				<?php
-				wp_nav_menu(
-					array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					)
-				);
-				?>
-			</nav>
+			<!-- Mainmenu -->
+			<?php get_template_part('template-parts/components/mainmenu'); ?>
+			<!-- /Mainmenu -->
+
 		</div>
 
 	</header>

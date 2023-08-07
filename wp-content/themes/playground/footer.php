@@ -19,6 +19,10 @@
 
 </div><!-- #page -->
 
+<!-- Mainmenu mobile -->
+<?php get_template_part('template-parts/components/mainmenu-mobile'); ?>
+<!-- /Mainmenu mobile -->
+
 <?php wp_footer(); ?>
 
 </body>

@@ -1,0 +1,8 @@
+.mainmenu-mobile {
+	@apply sm:hidden fixed top-0 left-0 bg-slate-300 w-full h-screen flex flex-col items-center justify-center;
+}
+.logged-in {
+	.mainmenu-mobile {
+		@apply top-[46px] h-[--page-min-h-logged-in];
+	}
+}
